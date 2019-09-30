@@ -1,5 +1,5 @@
 $("#btn1").on("click", function() {
-  $(".box-red, .box-green, .box-blue")
+  $(".red, .green, .blue")
     .animate()
     .css(
       {
@@ -10,7 +10,7 @@ $("#btn1").on("click", function() {
 });
 
 $("#btn2").on("click", function() {
-  $(".box-red, .box-green, .box-blue")
+  $(".red, .green, .blue")
     .animate()
     .css(
       {
@@ -21,7 +21,7 @@ $("#btn2").on("click", function() {
 });
 
 $("#btn3").on("click", function() {
-  $(".box-red, .box-green, .box-blue")
+  $(".red, .green, .blue")
     .animate()
     .css(
       {
@@ -32,19 +32,19 @@ $("#btn3").on("click", function() {
 });
 
 $("#btn4").on("click", function() {
-  $(".box-red").css(
+  $(".red").css(
     {
       backgroundColor: "red"
     },
     1500
   );
-  $(".box-green").css(
+  $(".green").css(
     {
       backgroundColor: "green"
     },
     1500
   );
-  $(".box-blue").css(
+  $(".blue").css(
     {
       backgroundColor: "blue"
     },
