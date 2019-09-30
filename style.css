@@ -16,7 +16,7 @@ body {
 
 .box:before {
   content: "";
-  display: block;
+  display: flex;
   padding-top: 100%;
 }
 
@@ -37,11 +37,8 @@ body {
   background-color: white;
 }
 
-.lotta-content {
-  height: 10000px;
-}
 
-#inner {
+.red, .green, .blue, .white {
   display: flex;
   align-items: center;
   justify-content: center;
