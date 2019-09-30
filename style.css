@@ -1,0 +1,60 @@
+body {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box {
+  float: left;
+  width: 50%;
+  max-width: 230px;
+}
+
+.box:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.red {
+  position: relative;
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.white {
+  background-color: white;
+}
+
+.lotta-content {
+  height: 10000px;
+}
+
+#inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  border: 1px solid white;
+}
+button#btn4 {
+  background-color: #2c2c2c;
+  color: white;
+}
